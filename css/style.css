@@ -1,0 +1,122 @@
+body{
+  background-color: #cce0e3;
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  width: auto;
+}
+
+h1{
+  color: #2AB2AF;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.bodyDiv{
+  background-color: white;
+  margin: 30px 40px;
+  border: 1px;
+  border-radius: 10px;
+}
+
+.topDiv{
+  padding: 50px 10px 10px 40px;
+}
+
+.header2TopDiv{
+  color: #C0DF34;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.paragraphTopDiv{
+  color: #98A6BD;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  width: 70%;
+}
+
+.bottomDivs{
+  background-color: #2AB2AF;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+
+.bottomLeftDiv{
+  background-color: #2AB2AF;
+  border-bottom-left-radius: 10px;
+  float: left; /* esta propriedade faz a div liberar o espaço da direita para a bottomRightDiv flutuar na direita  */
+  padding: 25px 10px 50px 40px;
+  width: 40%;
+}
+
+.paragraphBottomLeftDiv{
+  margin-top: 40px;
+}
+
+.header2bottomDivs{
+  color: #E5EFF5;
+  font-size: 35PX;
+}
+
+.paragraphBottomDivs{
+  color: #E5EFF5;
+  font-size: 18px;
+  line-height: 0.8;
+}
+
+.spanPrice{
+  color: #E5EFF5;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.spanMonth{
+color: #c2cacf;
+  font-size: 20px;
+}
+
+.button {
+    border: 0;
+    border-radius: 8px;
+    background-color: #C0DF34;
+    box-shadow: 1px 5px 4px 1px #757578;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 2.5;
+    margin-top: 18px;
+    padding: 15px 150px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.button:hover {
+    background-color: #cff03a;
+}
+
+.button:active {
+    box-shadow: inset -1px -1px 2px rgba(255, 255, 255, .6),
+                inset 1px 1px 2px rgba(0, 0, 0, .6);
+}
+
+
+
+.bottomRightDiv{
+  background-color: #2ec9c6;
+  float: right;
+  padding: 25px 0 50px 40px;
+  width: 48%;
+}
+
+.attribution {
+   font-size: 11px;
+
+   text-align: end;
+ }
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+ }
