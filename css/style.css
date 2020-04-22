@@ -13,8 +13,9 @@ h1{
 
 .bodyDiv{
   background-color: white;
-  margin: 30px 40px;
   border: 1px;
+  box-shadow: 1px 10px 10px 1px #757578;
+  margin: 30px 40px;
   border-radius: 10px;
 }
 
